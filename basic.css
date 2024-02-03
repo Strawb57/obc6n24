@@ -208,15 +208,19 @@ img {
     background-color: #62FCF2;
 } 
 
-.flex-child-intro td {
-  background-color: #f44336;
+.flex-child-intro th {
+  background-color: greenyellow;
+}
 
+.flex-child-intro td {
+  background-color: #dddddd;
 }
 
 .flex-child-intro td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    column-width: 500px;
   }
 
   .flex-child-intro table {
